@@ -20,4 +20,21 @@ router.post('/juggling-balls-answer', function (req, res) {
     res.redirect('/ineligible')
   }
 })
+
+router.post('/juggling-objects-answer', function (req, res) {
+  // make variables to store the data
+  var jugglingObjectBalls = req.session.data['balls']
+  var jugglingObjectSkittles = req.session.data['skittles']
+  var jugglingObjectTorches = req.session.data['torches']
+
+  // check whether the variables matches condition
+  if ((jugglingObjectBalls == "Balls") && (jugglingObjectSkittles == "Skittles") && (jugglingObjectTorches == "Flaming torches")) {
+    // send user to next page
+    res.redirect('/advanced')
+  } else {
+    // send user to check your answers page
+    res.redirect('/check-your-answers-page')
+  }
+})
+
 module.exports = router

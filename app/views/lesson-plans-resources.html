@@ -151,26 +151,30 @@ gem-c-title--margin-bottom-5">
     </div>
     <div class="app-c-option-select" data-input-aria-controls="js-search-results-info">
 <div class="container-head js-container-head">
-  <div class="option-select-label" id="option-select-title-keystage">
+  <div class="option-select-label" id="option-select-title-stage">
     Key stage
   </div>
 </div>
-<div role="group" aria-labelledby="option-select-title-keystage" class="options-container" id="keystage">
+<div role="group" aria-labelledby="option-select-title-stage" class="options-container" id="stage">
   <div class="js-auto-height-inner">
-    <label for="keystage-KS1">
-      <input name="types_of_support[]" value="KS1" id="keystage-KS1" type="checkbox">
+    <label for="stage-early-years">
+      <input name="stages[]" value="early-years" id="stage-early-years" type="checkbox">
+      Early years
+      </label>
+    <label for="stage-KS1">
+      <input name="stages[]" value="KS1" id="stage-KS1" type="checkbox">
       KS1
       </label>
-    <label for="keystage-KS2">
-      <input name="types_of_support[]" value="KS2" id="keystage-KS2" type="checkbox">
+    <label for="stage-KS2">
+      <input name="stages[]" value="KS2" id="stage-KS2" type="checkbox">
       KS2
       </label>
-    <label for="keystage-KS3">
-      <input name="types_of_support[]" value="KS3" id="keystage-KS3" type="checkbox">
+    <label for="stage-KS3">
+      <input name="stages[]" value="KS3" id="stage-KS3" type="checkbox">
       KS3
       </label>
-    <label for="keystage-KS3">
-      <input name="types_of_support[]" value="loan" id="keystage-KS4" type="checkbox">
+    <label for="stage-KS3">
+      <input name="stages[]" value="loan" id="stage-KS4" type="checkbox">
       KS4
       </label>
   </div>
@@ -180,24 +184,47 @@ gem-c-title--margin-bottom-5">
 
 <div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info">
 <div class="container-head js-container-head">
-  <div class="option-select-label" id="option-select-title-business-stage">
-    Business stage
+  <div class="option-select-label" id="option-select-title-subject">
+    Subject
   </div>
 </div>
-<div role="group" aria-labelledby="option-select-title-business-stage" class="options-container" id="business_stages">
+<div role="group" aria-labelledby="option-select-title-business-stage" class="options-container" id="subjects">
   <div class="js-auto-height-inner">
-    <label for="business_stages-not-yet-trading">
-      <input name="business_stages[]" value="not-yet-trading" id="business_stages-not-yet-trading" type="checkbox">
-      Not yet trading
+    <label for="subjects-art">
+      <input name="subjects[]" value="art" id="subjects-art" type="checkbox">
+          Art
+          </label>
+          <label for="subjects-computing">
+            <input name="subjects[]" value="computing" id="subjects-computing" type="checkbox">
+            Computing
+            </label>
+    <label for="subjects-english">
+            <input name="subjects[]" value="english" id="subjects-english" type="checkbox">
+              English
+    </label>
+
+      <label for="subjects-geography">
+        <input name="subjects[]" value="geography" id="subjects-geography" type="checkbox">
+        Geography
       </label>
-    <label for="business_stages-start-up">
-      <input name="business_stages[]" value="start-up" id="business_stages-start-up" type="checkbox">
-      Start-ups (1-2 years trading)
+      <label for="subjects-history">
+        <input name="subjects[]" value="english" id="subjects-history" type="checkbox">
+          History
       </label>
-    <label for="business_stages-established">
-      <input name="business_stages[]" value="established" id="business_stages-established" type="checkbox">
-      Established
-      </label>
+      <label for="subjects-maths">
+        <input name="subjects[]" value="maths" id="subjects-maths" type="checkbox">
+        Maths
+        </label>
+
+        <label for="subjects-music">
+              <input name="subjects[]" value="art" id="subjects-music" type="checkbox">
+              Music
+        </label>
+        <label for="subjects-science">
+              <input name="subjects[]" value="art" id="subjects-science" type="checkbox">
+              Science
+        </label>
+
   </div>
 
 </div>
@@ -205,80 +232,29 @@ gem-c-title--margin-bottom-5">
 
 <div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info">
 <div class="container-head js-container-head">
-  <div class="option-select-label" id="option-select-title-industry">
-    Industry
+  <div class="option-select-label" id="option-select-title-resource-type">
+    Type of resource
   </div>
 </div>
-<div role="group" aria-labelledby="option-select-title-industry" class="options-container" id="industries">
+<div role="group" aria-labelledby="option-select-title-resource-type" class="options-container" id="resource-types">
   <div class="js-auto-height-inner">
-    <label for="industries-agriculture-and-food">
-      <input name="industries[]" value="agriculture-and-food" id="industries-agriculture-and-food" type="checkbox">
-      Agriculture and food
+    <label for="resource-types-lesson-plan">
+      <input name="resource-types[]" value="lesson-plan" id="resource-types-lesson-plan" type="checkbox">
+      Lesson plan
       </label>
-    <label for="industries-business-and-finance">
-      <input name="industries[]" value="business-and-finance" id="industries-business-and-finance" type="checkbox">
-      Business and finance
-      </label>
-    <label for="industries-construction">
-      <input name="industries[]" value="construction" id="industries-construction" type="checkbox">
-      Construction
-      </label>
-    <label for="industries-education">
-      <input name="industries[]" value="education" id="industries-education" type="checkbox">
-      Education
-      </label>
-    <label for="industries-health">
-      <input name="industries[]" value="health" id="industries-health" type="checkbox">
-      Health
-      </label>
-    <label for="industries-hospitality-and-catering">
-      <input name="industries[]" value="hospitality-and-catering" id="industries-hospitality-and-catering" type="checkbox">
-      Hospitality and catering
-      </label>
-    <label for="industries-information-technology-digital-and-creative">
-      <input name="industries[]" value="information-technology-digital-and-creative" id="industries-information-technology-digital-and-creative" type="checkbox">
-      IT, digital and creative
-      </label>
-    <label for="industries-life-sciences">
-      <input name="industries[]" value="life-sciences" id="industries-life-sciences" type="checkbox">
-      Life Sciences
-      </label>
-    <label for="industries-manufacturing">
-      <input name="industries[]" value="manufacturing" id="industries-manufacturing" type="checkbox">
-      Manufacturing
-      </label>
-    <label for="industries-mining">
-      <input name="industries[]" value="mining" id="industries-mining" type="checkbox">
-      Mining
-      </label>
-    <label for="industries-real-estate-and-property">
-      <input name="industries[]" value="real-estate-and-property" id="industries-real-estate-and-property" type="checkbox">
-      Real estate and property
-      </label>
-    <label for="industries-science-and-technology">
-      <input name="industries[]" value="science-and-technology" id="industries-science-and-technology" type="checkbox">
-      Science and technology
-      </label>
-    <label for="industries-service-industries">
-      <input name="industries[]" value="service-industries" id="industries-service-industries" type="checkbox">
-      Service industries
-      </label>
-    <label for="industries-transport-and-distribution">
-      <input name="industries[]" value="transport-and-distribution" id="industries-transport-and-distribution" type="checkbox">
-      Transport and distribution
-      </label>
-    <label for="industries-travel-and-leisure">
-      <input name="industries[]" value="travel-and-leisure" id="industries-travel-and-leisure" type="checkbox">
-      Travel and leisure
-      </label>
-    <label for="industries-utilities-providers">
-      <input name="industries[]" value="utilities-providers" id="industries-utilities-providers" type="checkbox">
-      Utilities providers
-      </label>
-    <label for="industries-wholesale-and-retail">
-      <input name="industries[]" value="wholesale-and-retail" id="industries-wholesale-and-retail" type="checkbox">
-      Wholesale and retail
-      </label>
+      <label for="resource-types-poster">
+        <input name="resource-types[]" value="poster" id="resource-types-poster" type="checkbox">
+        Poster
+        </label>
+        <label for="resource-types-test">
+          <input name="resource-types[]" value="test" id="resource-types-test" type="checkbox">
+          Test
+          </label>
+      <label for="resource-types-worksheet">
+        <input name="resource-types[]" value="worksheet" id="resource-types-worksheet" type="checkbox">
+        Worksheet
+        </label>
+
   </div>
 
 </div>

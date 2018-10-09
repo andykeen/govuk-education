@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
+<!--<![endif]-->
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Question page
+{% endblock %}
+
+{% block content %}
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="govuk:taxon-slugs" content="business-debt-and-bankruptcy,finance-support,running-a-business">
+<meta name="govuk:taxon-slug" content="business-debt-and-bankruptcy">
+<meta name="govuk:taxon-ids" content="a1119685-ffef-4417-a3e4-116014ad4523,ccfc50f5-e193-4dac-9d78-50b3a8bb24c5,8aa41155-58ff-4d7d-a11a-7e3ef42863dd">
+<meta name="govuk:taxon-id" content="a1119685-ffef-4417-a3e4-116014ad4523">
+<meta name="govuk:themes" content="business-and-industry">
+<meta name="govuk:analytics:organisations" content="&lt;D1198&gt;">
+<meta name="govuk:content-id" content="12fecc5b-c02a-405e-b96e-7aa32ceaf504">
+<meta name="govuk:navigation-document-type" content="other">
+<meta name="govuk:user-journey-stage" content="finding">
+<meta name="govuk:schema-name" content="finder">
+<meta name="govuk:publishing-application" content="specialist-publisher">
+<meta name="govuk:format" content="finder">
+<meta name="description" content="Find government-backed support and finance for business">
+<meta name="csrf-token" content="i0LL8AOffFpPrhV6J4WtcuWg5jfkalTDd+5hJ65B49ihYKm4KkxrrOTt4vZ26IHXjXXTZZ4AOy/Ziv83T4CN+Q==">
+<meta name="csrf-param" content="authenticity_token">
+  <meta charset="utf-8">
+  <title>Lesson plans and resources - GOV.UK</title>
+
+  <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css" crossorigin="anonymous" integrity="sha256-wLi6ixZSqsrSmNdPJHUiYBh/U4tQxAwkhPfzM8vDzys=">
+<!--<![endif]-->
+  <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie6-2c1bb089ee71d4d70a08ba94e4b363a99542c8feddf3aa979bc4f8962aed5e02.css" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie7-062e553ef49a9f884a3a1f885c8a18e829b6557046b075e1384f6092a60151d1.css" /><![endif]-->
+  <!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie8-11027733d1abeac34c7bf14e37fea30366ad3a87cfd7f7a084de3a3b4b838412.css" /><![endif]-->
+  <link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css" crossorigin="anonymous" integrity="sha256-EHZRlSHC//u/das7DTsy7i2WrH6XePHN+sF3Hu/RocA=">
+
+  <link rel="stylesheet" media="all" href="https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css" crossorigin="anonymous" integrity="sha256-6exaX4LlwqF5J841bloFTLKAJewVR+xdAPXJjS7F5IE=">
+  <!--[if lt IE 9]><script src="https://assets.publishing.service.gov.uk/static/ie-a4524544a53d57a7e259b4bb966b9c32557c98c920b77e52d09304642b68401a.js" crossorigin="anonymous" integrity="sha256-pFJFRKU9V6fiWbS7lmucMlV8mMkgt35S0JMEZCtoQBo="></script><![endif]-->
+
+  <link rel="shortcut icon" href="https://assets.publishing.service.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+  <link rel="mask-icon" href="https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown-de738c3fcce8ce2a91b67e89787090dc24a5cda0275ab6b75f6226c5b9619d3d.svg" color="#0b0c0c">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-180x180-ea1cbb1cbbeddfff275dfa6e8e46b84cd530892df79dc4882a8f99b802b49a90.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-167x167-181e404a50c572923285fb83f0fbd78da6b4e38e3ce52f8e6b8e29da8586450a.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-152x152-02457fcdcee8d309276305af2233d41bfb8fd055e855727d355e61bce7ffa9bb.png">
+  <link rel="apple-touch-icon" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-a318f305290c523aed80082456175b46c95350c0eeac93f42e78a71c7a55544e.png">
+
+  <meta name="theme-color" content="#0b0c0c">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/header-footer-only-eb16a6e7fc9b7559fe60a2a056f613e4ace782a9d9baf6f4a3844640341853a0.css" crossorigin="anonymous" integrity="sha256-6xam5/ybdVn+YKKgVvYT5KzngqnZuvb0o4RGQDQYU6A=">
+<!--<![endif]-->
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/header-footer-only-ie6-605630d0445aa67049bf1bbd70490d3dbb0dee80e61be1044f94ffe824b3acc8.css" /><script>var ieVersion = 6;</script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/header-footer-only-ie7-e1608a9160d031f148d2dce11cc0c915b6af209f437154e3ee3dabc3332356ca.css" /><script>var ieVersion = 7;</script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/header-footer-only-ie8-eafebcd5c87a356d19195ce49597e98b1aa6a75dd43299c51ea5436355e2c5fe.css" /><script>var ieVersion = 8;</script><![endif]-->
+
+<link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/static/header-footer-only-print-9a2de3ce1590c8ca478a6f7edf5a2e4bad0c6291b1dd4a6e7ca85f653d9591b4.css" crossorigin="anonymous" integrity="sha256-mi3jzhWQyMpHim9+31ouS60MYpGx3UpufKhfZT2VkbQ=">
+
+
+
+  <meta property="og:image" content="https://assets.publishing.service.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+<!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/finder-frontend/application-ffa35a42784fa213e556cf6849827d0b43963b1e53ad966ba0cead5533f1e8ac.css">
+<!--<![endif]--><link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/finder-frontend/print-e5db5b30337c6f0a15c2f0094ef4043db5a97d7e2947686d5f4544bef3a3e1d5.css">
+<link rel="alternate" type="application/json" href="/api/content/business-finance-support">
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/finder-frontend/application-ie6-ca9d11974e69c05ca15e5d79053cbc7b38858498da719c14e01e70dd0575f2f4.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/finder-frontend/application-ie7-d2af9d535b5e8215e9ce255731cb7ffb2e800b6faee19ceae5e775ff77fe9263.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/finder-frontend/application-ie8-d1c56331bba60ee775275d910adb4138208d4d6bb60da7980b10b2328adb2761.css" /><script>var ieVersion = 8;</script><![endif]--><meta name="govuk:rendering-application" content="finder-frontend">
+</head>
+
+<body>
+  <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+
+
+  <div id="skiplink-container">
+    <div>
+      <a href="#content" class="skiplink">Skip to main content</a>
+    </div>
+  </div>
+
+  <div id="global-cookie-message">
+      <p>GOV.UK uses cookies to make the site simpler. <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
+  </div>
+
+    <div id="user-satisfaction-survey-container"></div>
+
+
+  <div id="global-header-bar"></div>
+
+    <div id="wrapper">
+    <main id="content" role="main" class="finder-frontend-content">
+      <div id="finder-frontend">
+
+
+
+<div class="gem-c-contextual-breadcrumbs">
+  <!-- Rendering parent-based breadcrumbs because the page is tagged to mainstream browse -->
+
+
+
+<div class="gem-c-breadcrumbs " data-module="track-click">
+<ol>
+
+  <li class="gem-c-breadcrumbs__item ">
+      <a data-track-category="breadcrumbClicked" data-track-action="1" data-track-label="/" data-track-options='{"dimension28":"1","dimension29":"Home"}' class="" aria-current="false" href="/">Home</a>
+  </li>
+</ol>
+</div>
+
+</div>
+
+
+
+<header>
+<div class="title-and-metadata">
+  <div class="gem-c-title
+
+gem-c-title--margin-bottom-5">
+<h1 class="gem-c-title__text ">
+  Lesson plans and resources
+</h1>
+</div>
+
+    <div class="gem-c-metadata" data-module="gem-toggle">
+<dl data-module="track-click">
+    <dt class="gem-c-metadata__term">From:</dt>
+    <dd class="gem-c-metadata__definition">
+        <a href="https://www.gov.uk/government/organisations/department-for-education">Department for Education</a>
+
+    </dd>
+</dl>
+</div>
+
+
+
+    <p class="email-link">
+      <a href="https://www.gov.uk/business-finance-support/email-signup">Subscribe to email alerts</a>
+    </p>
+</div>
+</header>
+
+<div class="filtering">
+<div class="filter-form">
+<div class="inner-block">
+  <form method="get" action="/business-finance-support" class="js-live-search-form">
+    <div class="filter text-filter">
+      <label class="legend" for="finder-keyword-search">Search</label>
+      <input value="" type="text" name="keywords" id="finder-keyword-search" aria-controls="js-search-results-info" class="text">
+    </div>
+    <div class="app-c-option-select" data-input-aria-controls="js-search-results-info">
+<div class="container-head js-container-head">
+  <div class="option-select-label" id="option-select-title-keystage">
+    Key stage
+  </div>
+</div>
+<div role="group" aria-labelledby="option-select-title-keystage" class="options-container" id="keystage">
+  <div class="js-auto-height-inner">
+    <label for="keystage-KS1">
+      <input name="types_of_support[]" value="KS1" id="keystage-KS1" type="checkbox">
+      KS1
+      </label>
+    <label for="keystage-KS2">
+      <input name="types_of_support[]" value="KS2" id="keystage-KS2" type="checkbox">
+      KS2
+      </label>
+    <label for="keystage-KS3">
+      <input name="types_of_support[]" value="KS3" id="keystage-KS3" type="checkbox">
+      KS3
+      </label>
+    <label for="keystage-KS3">
+      <input name="types_of_support[]" value="loan" id="keystage-KS4" type="checkbox">
+      KS4
+      </label>
+  </div>
+
+</div>
+</div>
+
+<div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info">
+<div class="container-head js-container-head">
+  <div class="option-select-label" id="option-select-title-business-stage">
+    Business stage
+  </div>
+</div>
+<div role="group" aria-labelledby="option-select-title-business-stage" class="options-container" id="business_stages">
+  <div class="js-auto-height-inner">
+    <label for="business_stages-not-yet-trading">
+      <input name="business_stages[]" value="not-yet-trading" id="business_stages-not-yet-trading" type="checkbox">
+      Not yet trading
+      </label>
+    <label for="business_stages-start-up">
+      <input name="business_stages[]" value="start-up" id="business_stages-start-up" type="checkbox">
+      Start-ups (1-2 years trading)
+      </label>
+    <label for="business_stages-established">
+      <input name="business_stages[]" value="established" id="business_stages-established" type="checkbox">
+      Established
+      </label>
+  </div>
+
+</div>
+</div>
+
+<div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info">
+<div class="container-head js-container-head">
+  <div class="option-select-label" id="option-select-title-industry">
+    Industry
+  </div>
+</div>
+<div role="group" aria-labelledby="option-select-title-industry" class="options-container" id="industries">
+  <div class="js-auto-height-inner">
+    <label for="industries-agriculture-and-food">
+      <input name="industries[]" value="agriculture-and-food" id="industries-agriculture-and-food" type="checkbox">
+      Agriculture and food
+      </label>
+    <label for="industries-business-and-finance">
+      <input name="industries[]" value="business-and-finance" id="industries-business-and-finance" type="checkbox">
+      Business and finance
+      </label>
+    <label for="industries-construction">
+      <input name="industries[]" value="construction" id="industries-construction" type="checkbox">
+      Construction
+      </label>
+    <label for="industries-education">
+      <input name="industries[]" value="education" id="industries-education" type="checkbox">
+      Education
+      </label>
+    <label for="industries-health">
+      <input name="industries[]" value="health" id="industries-health" type="checkbox">
+      Health
+      </label>
+    <label for="industries-hospitality-and-catering">
+      <input name="industries[]" value="hospitality-and-catering" id="industries-hospitality-and-catering" type="checkbox">
+      Hospitality and catering
+      </label>
+    <label for="industries-information-technology-digital-and-creative">
+      <input name="industries[]" value="information-technology-digital-and-creative" id="industries-information-technology-digital-and-creative" type="checkbox">
+      IT, digital and creative
+      </label>
+    <label for="industries-life-sciences">
+      <input name="industries[]" value="life-sciences" id="industries-life-sciences" type="checkbox">
+      Life Sciences
+      </label>
+    <label for="industries-manufacturing">
+      <input name="industries[]" value="manufacturing" id="industries-manufacturing" type="checkbox">
+      Manufacturing
+      </label>
+    <label for="industries-mining">
+      <input name="industries[]" value="mining" id="industries-mining" type="checkbox">
+      Mining
+      </label>
+    <label for="industries-real-estate-and-property">
+      <input name="industries[]" value="real-estate-and-property" id="industries-real-estate-and-property" type="checkbox">
+      Real estate and property
+      </label>
+    <label for="industries-science-and-technology">
+      <input name="industries[]" value="science-and-technology" id="industries-science-and-technology" type="checkbox">
+      Science and technology
+      </label>
+    <label for="industries-service-industries">
+      <input name="industries[]" value="service-industries" id="industries-service-industries" type="checkbox">
+      Service industries
+      </label>
+    <label for="industries-transport-and-distribution">
+      <input name="industries[]" value="transport-and-distribution" id="industries-transport-and-distribution" type="checkbox">
+      Transport and distribution
+      </label>
+    <label for="industries-travel-and-leisure">
+      <input name="industries[]" value="travel-and-leisure" id="industries-travel-and-leisure" type="checkbox">
+      Travel and leisure
+      </label>
+    <label for="industries-utilities-providers">
+      <input name="industries[]" value="utilities-providers" id="industries-utilities-providers" type="checkbox">
+      Utilities providers
+      </label>
+    <label for="industries-wholesale-and-retail">
+      <input name="industries[]" value="wholesale-and-retail" id="industries-wholesale-and-retail" type="checkbox">
+      Wholesale and retail
+      </label>
+  </div>
+
+</div>
+</div>
+
+<div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info">
+<div class="container-head js-container-head">
+  <div class="option-select-label" id="option-select-title-number-of-employees">
+    Number of employees
+  </div>
+</div>
+<div role="group" aria-labelledby="option-select-title-number-of-employees" class="options-container" id="business_sizes">
+  <div class="js-auto-height-inner">
+    <label for="business_sizes-under-10">
+      <input name="business_sizes[]" value="under-10" id="business_sizes-under-10" type="checkbox">
+      0 to 9 employees
+      </label>
+    <label for="business_sizes-between-10-and-249">
+      <input name="business_sizes[]" value="between-10-and-249" id="business_sizes-between-10-and-249" type="checkbox">
+      10 to 249 employees
+      </label>
+    <label for="business_sizes-between-250-and-500">
+      <input name="business_sizes[]" value="between-250-and-500" id="business_sizes-between-250-and-500" type="checkbox">
+      250 to 500 employees
+      </label>
+    <label for="business_sizes-over-500">
+      <input name="business_sizes[]" value="over-500" id="business_sizes-over-500" type="checkbox">
+      More than 500 employees
+      </label>
+  </div>
+
+</div>
+</div>
+
+
+    <input type="submit" value="Filter results" class="button js-live-search-fallback">
+  </form>
+</div>
+</div>
+
+<div class="js-live-search-results-block">
+  <div class="filtered-results">
+    <div aria-live="assertive" id="js-search-results-info">
+
+    </div>
+    <div id="js-results">
+
+<ul data-module="track-click">
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/access-to-finance-advice-north-west-england" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.1" data-track-label="/business-finance-support/access-to-finance-advice-north-west-england" data-track-options='{"dimension28":"50","dimension29":"Access to finance - Greater Manchester and Lancashire"}'>Access to finance - Greater Manchester and Lancashire</a>
+    </h3>
+      <p>Access to finance is a scheme for businesses who need help raising finance for growth.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/ad-venture-leeds-city-region" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.2" data-track-label="/business-finance-support/ad-venture-leeds-city-region" data-track-options='{"dimension28":"50","dimension29":"AD:VENTURE - Leeds City Region"}'>AD:VENTURE - Leeds City Region</a>
+    </h3>
+      <p>Provides free business development support and guidance.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/advanced-manufacturing-supply-chain-initiative-west-midlands-and-liverpool" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.3" data-track-label="/business-finance-support/advanced-manufacturing-supply-chain-initiative-west-midlands-and-liverpool" data-track-options='{"dimension28":"50","dimension29":"Advanced Manufacturing Supply Chain Initiative - West Midlands and Liverpool"}'>Advanced Manufacturing Supply Chain Initiative - West Midlands and Liverpool</a>
+    </h3>
+      <p>Loan and grant fund to support automotive and aerospace projects in the West Midlands and Liverpool.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/advice-for-new-and-existing-businesses-hertfordshire-and-bedfordshire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.4" data-track-label="/business-finance-support/advice-for-new-and-existing-businesses-hertfordshire-and-bedfordshire" data-track-options='{"dimension28":"50","dimension29":"Advice for new and existing businesses - Hertfordshire and Bedfordshire"}'>Advice for new and existing businesses - Hertfordshire and Bedfordshire</a>
+    </h3>
+      <p>Advice and support for businesses in southern England.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/advice-for-start-ups-hertfordshire-and-bedfordshire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.5" data-track-label="/business-finance-support/advice-for-start-ups-hertfordshire-and-bedfordshire" data-track-options='{"dimension28":"50","dimension29":"Advice for start-ups - Hertfordshire and Bedfordshire"}'>Advice for start-ups - Hertfordshire and Bedfordshire</a>
+    </h3>
+      <p>Business advice and support for individuals starting a business.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/advisory-conciliation-and-arbitration-service-acas-uk" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.6" data-track-label="/business-finance-support/advisory-conciliation-and-arbitration-service-acas-uk" data-track-options='{"dimension28":"50","dimension29":"Advisory, Conciliation and Arbitration Service (Acas) - UK"}'>Advisory, Conciliation and Arbitration Service (Acas) - UK</a>
+    </h3>
+      <p>Advice on good practice in employment and employment relations.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/agri-tech-cornwall-cornwall-and-the-isles-of-scilly" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.7" data-track-label="/business-finance-support/agri-tech-cornwall-cornwall-and-the-isles-of-scilly" data-track-options='{"dimension28":"50","dimension29":"Agri-tech Cornwall - Cornwall and the Isles of Scilly"}'>Agri-tech Cornwall - Cornwall and the Isles of Scilly</a>
+    </h3>
+      <p>Grants and support to increase research, development and innovation in agritech.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/art-business-loans-west-midlands" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.8" data-track-label="/business-finance-support/art-business-loans-west-midlands" data-track-options='{"dimension28":"50","dimension29":"ART Business Loans - West Midlands"}'>ART Business Loans - West Midlands</a>
+    </h3>
+      <p>Loans for new and existing small businesses to create and safeguard jobs in the West Midlands</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/aub-innovation-vouchers" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.9" data-track-label="/business-finance-support/aub-innovation-vouchers" data-track-options='{"dimension28":"50","dimension29":"Arts University Bournemouth Innovation Vouchers"}'>Arts University Bournemouth Innovation Vouchers</a>
+    </h3>
+      <p>Vouchers to access external expertise, facilities and equipment to help your business innovate and grow.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/barking-enterprise-centre-london" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.10" data-track-label="/business-finance-support/barking-enterprise-centre-london" data-track-options='{"dimension28":"50","dimension29":"Barking Enterprise Centres - London"}'>Barking Enterprise Centres - London</a>
+    </h3>
+      <p>Free support, help with finance and low-cost flexible workspace for new and existing small or medium businesses in Barking and Dagenham.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/bcrs-business-loans-west-midlands" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.11" data-track-label="/business-finance-support/bcrs-business-loans-west-midlands" data-track-options='{"dimension28":"50","dimension29":"BCRS Business Loans"}'>BCRS Business Loans</a>
+    </h3>
+      <p>Loans to help small and medium-sized businesses develop and grow.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/be-inspired-at-staffordshire-university" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.12" data-track-label="/business-finance-support/be-inspired-at-staffordshire-university" data-track-options='{"dimension28":"50","dimension29":"Be inspired at Staffordshire University "}'>Be inspired at Staffordshire University </a>
+    </h3>
+      <p>Offers free support and guidance for graduates of any university in England, Scotland, Wales and Northern Ireland to start a business.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/better-broadband-subsidy-scheme-uk" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.13" data-track-label="/business-finance-support/better-broadband-subsidy-scheme-uk" data-track-options='{"dimension28":"50","dimension29":"Better Broadband Subsidy Scheme - UK"}'>Better Broadband Subsidy Scheme - UK</a>
+    </h3>
+      <p>Subsidised broadband installation for businesses that can't access an affordable broadband service with a speed of at least 2MB per second.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/better-business-finance" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.14" data-track-label="/business-finance-support/better-business-finance" data-track-options='{"dimension28":"50","dimension29":"Better Business Finance - UK"}'>Better Business Finance - UK</a>
+    </h3>
+      <p>Free, quick and easy access to a directory of approved finance suppliers for UK businesses.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/big-issue-invest-uk" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.15" data-track-label="/business-finance-support/big-issue-invest-uk" data-track-options='{"dimension28":"50","dimension29":"Big Issue Invest - UK"}'>Big Issue Invest - UK</a>
+    </h3>
+      <p>Big Issue Invest helps social enterprises and charities by providing loans and investments. </p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/biorenewables-development-centre-bdc-yorkshire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.16" data-track-label="/business-finance-support/biorenewables-development-centre-bdc-yorkshire" data-track-options='{"dimension28":"50","dimension29":"Biorenewables Development Centre (BDC) – Yorkshire"}'>Biorenewables Development Centre (BDC) – Yorkshire</a>
+    </h3>
+      <p>Support for scientists and business specialists to solve a process, material, or product development challenge.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/boost-business-lancashire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.17" data-track-label="/business-finance-support/boost-business-lancashire" data-track-options='{"dimension28":"50","dimension29":"Boost Business - Lancashire"}'>Boost Business - Lancashire</a>
+    </h3>
+      <p>Advice and support for businesses across Lancashire: including coaching, mentoring, skills training, funding and start-up support.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/buckinghamshire-business-growth-grants" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.18" data-track-label="/business-finance-support/buckinghamshire-business-growth-grants" data-track-options='{"dimension28":"50","dimension29":"Buckinghamshire Business Growth Grants"}'>Buckinghamshire Business Growth Grants</a>
+    </h3>
+      <p>Grant funding to the value of £1,000 available to invest in projects that will help grow your business.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/buckinghamshire-business-growth-programme" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.19" data-track-label="/business-finance-support/buckinghamshire-business-growth-programme" data-track-options='{"dimension28":"50","dimension29":"Buckinghamshire Business Growth Programme "}'>Buckinghamshire Business Growth Programme </a>
+    </h3>
+      <p>Free business support and advice tailored to your business needs.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/building-enhancement-programme-swansea" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.20" data-track-label="/business-finance-support/building-enhancement-programme-swansea" data-track-options='{"dimension28":"50","dimension29":"Building Enhancement Programme - Swansea"}'>Building Enhancement Programme - Swansea</a>
+    </h3>
+      <p>Grants to help Swansea City centre businesses improve their shopfronts or building facades</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/building-legacies-london" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.21" data-track-label="/business-finance-support/building-legacies-london" data-track-options='{"dimension28":"50","dimension29":"Building Legacies - London"}'>Building Legacies - London</a>
+    </h3>
+      <p>An enterprise growth and procurement support programme for London-based businesses.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/built-environment-climate-change-innovations-west-midlands" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.22" data-track-label="/business-finance-support/built-environment-climate-change-innovations-west-midlands" data-track-options='{"dimension28":"50","dimension29":"Built Environment Climate Change Innovations - West Midlands"}'>Built Environment Climate Change Innovations - West Midlands</a>
+    </h3>
+      <p>Free support for small and medium-sized businesses in the development of products and services that reduce carbon usage.
+</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-advice-oxfordshire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.23" data-track-label="/business-finance-support/business-advice-oxfordshire" data-track-options='{"dimension28":"50","dimension29":"Business advice - Oxfordshire "}'>Business advice - Oxfordshire </a>
+    </h3>
+      <p>Free one to one advice for pre-start and new businesses based in the South East of England</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-advice-and-masterclasses-east-of-england" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.24" data-track-label="/business-finance-support/business-advice-and-masterclasses-east-of-england" data-track-options='{"dimension28":"50","dimension29":"Business advice and masterclasses - East of England"}'>Business advice and masterclasses - East of England</a>
+    </h3>
+      <p>Advice, workshops, loans and innovation grant services for start-up and trading businesses in Cambridgeshire, Essex, Norfolk and Suffolk</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-advice-and-support-south-east-england" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.25" data-track-label="/business-finance-support/business-advice-and-support-south-east-england" data-track-options='{"dimension28":"50","dimension29":"Business advice and support - South East England"}'>Business advice and support - South East England</a>
+    </h3>
+      <p>Free advice, planning and on-going support for business start-ups in south-east England</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-advice-training-and-support-services-north-somerset" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.26" data-track-label="/business-finance-support/business-advice-training-and-support-services-north-somerset" data-track-options='{"dimension28":"50","dimension29":"Business advice, training and support services - North Somerset"}'>Business advice, training and support services - North Somerset</a>
+    </h3>
+      <p>Information, advice, training and support for businesses based in North Somerset</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-advisers-and-start-up-services-colchester" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.27" data-track-label="/business-finance-support/business-advisers-and-start-up-services-colchester" data-track-options='{"dimension28":"50","dimension29":"Business advisers and start-up services - Colchester"}'>Business advisers and start-up services - Colchester</a>
+    </h3>
+      <p>Start-up advice and support for businesses in Essex</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-and-intellectual-property-centre-british-library-london" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.28" data-track-label="/business-finance-support/business-and-intellectual-property-centre-british-library-london" data-track-options='{"dimension28":"50","dimension29":"Business and Intellectual Property Centre - British Library London"}'>Business and Intellectual Property Centre - British Library London</a>
+    </h3>
+      <p>Advice, databases, publications and workshops for business owners, innovators and entrepreneurs who want to grow.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-assist-midlands" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.29" data-track-label="/business-finance-support/business-assist-midlands" data-track-options='{"dimension28":"50","dimension29":"Business Assist - The Midlands"}'>Business Assist - The Midlands</a>
+    </h3>
+      <p>One-to-one advisory sessions and specialised workshops available for businesses in Derbyshire, Nottinghamshire and Greater Lincolnshire.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-cash-advance-uk" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.30" data-track-label="/business-finance-support/business-cash-advance-uk" data-track-options='{"dimension28":"50","dimension29":"Business Cash Advance - UK"}'>Business Cash Advance - UK</a>
+    </h3>
+      <p>Alternative financing for UK small business owners.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-centres-east-riding-of-yorkshire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.31" data-track-label="/business-finance-support/business-centres-east-riding-of-yorkshire" data-track-options='{"dimension28":"50","dimension29":"Business centres - East Riding of Yorkshire"}'>Business centres - East Riding of Yorkshire</a>
+    </h3>
+      <p>One-to-one and online business advice from 6 business centres on starting, growing or relocating your business in East Riding.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-compass-start-up-programme-tees-valley" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.32" data-track-label="/business-finance-support/business-compass-start-up-programme-tees-valley" data-track-options='{"dimension28":"50","dimension29":"Business Compass Start Up programme - Tees Valley"}'>Business Compass Start Up programme - Tees Valley</a>
+    </h3>
+      <p>Free advice and possible grant funding for residents thinking of starting a business in certain priority sectors.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-continuity-forum-manchester" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.33" data-track-label="/business-finance-support/business-continuity-forum-manchester" data-track-options='{"dimension28":"50","dimension29":"Business Continuity Forum - Manchester"}'>Business Continuity Forum - Manchester</a>
+    </h3>
+      <p>Increases awareness of business continuity management in Manchester's business and voluntary sector.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-development-grant-scheme-scarborough-borough" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.34" data-track-label="/business-finance-support/business-development-grant-scheme-scarborough-borough" data-track-options='{"dimension28":"50","dimension29":"Business Development Grant Scheme – Scarborough Borough"}'>Business Development Grant Scheme – Scarborough Borough</a>
+    </h3>
+      <p>Grants to help start-up and established small and medium-sized businesses (SMEs) in North Yorkshire to grow.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-energy-efficiency-programme-west-midlands" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.35" data-track-label="/business-finance-support/business-energy-efficiency-programme-west-midlands" data-track-options='{"dimension28":"50","dimension29":"Business Energy Efficiency Programme - West Midlands"}'>Business Energy Efficiency Programme - West Midlands</a>
+    </h3>
+      <p>Energy reviews and grants to help businesses in the West Midlands manage and reduce energy costs.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-enterprise-fund-north-east-england" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.36" data-track-label="/business-finance-support/business-enterprise-fund-north-east-england" data-track-options='{"dimension28":"50","dimension29":"Business Enterprise fund - North East England "}'>Business Enterprise fund - North East England </a>
+    </h3>
+      <p>Financial support for small and medium-sized businesses (SMEs) in Yorkshire and the North East.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-grants-greater-cambridge-and-greater-peterborough" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.37" data-track-label="/business-finance-support/business-grants-greater-cambridge-and-greater-peterborough" data-track-options='{"dimension28":"50","dimension29":"Business Grants - Greater Cambridge and Greater Peterborough"}'>Business Grants - Greater Cambridge and Greater Peterborough</a>
+    </h3>
+      <p>Grants to support capital investment projects in the East of England.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-growth-calderdale" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.38" data-track-label="/business-finance-support/business-growth-calderdale" data-track-options='{"dimension28":"50","dimension29":"Business growth - Calderdale"}'>Business growth - Calderdale</a>
+    </h3>
+      <p>Supports West Yorkshire businesses that are aspiring to grow, become more competitive or develop new products and services.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-growth-grant-scheme-mansfield" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.39" data-track-label="/business-finance-support/business-growth-grant-scheme-mansfield" data-track-options='{"dimension28":"50","dimension29":"Business Growth Grant Scheme - Mansfield"}'>Business Growth Grant Scheme - Mansfield</a>
+    </h3>
+      <p>Grants for established businesses in Mansfield that can produce a growth plan leading to job creation.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-growth-hub-and-rural-growth-network-cumbria" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.40" data-track-label="/business-finance-support/business-growth-hub-and-rural-growth-network-cumbria" data-track-options='{"dimension28":"50","dimension29":"Business Growth Hub and Rural Growth Network - Cumbria"}'>Business Growth Hub and Rural Growth Network - Cumbria</a>
+    </h3>
+      <p>Advice and training for small and medium-sized enterprises (SMEs) in Cumbria.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-growth-loans-sussex-kent-surrey-and-hampshire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.41" data-track-label="/business-finance-support/business-growth-loans-sussex-kent-surrey-and-hampshire" data-track-options='{"dimension28":"50","dimension29":"Business Growth Loans - Sussex, Kent, Surrey, Essex and Hampshire"}'>Business Growth Loans - Sussex, Kent, Surrey, Essex and Hampshire</a>
+    </h3>
+      <p>Business loans for companies that can't get funding from banks and other mainstream providers.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-growth-programme-birmingham" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.42" data-track-label="/business-finance-support/business-growth-programme-birmingham" data-track-options='{"dimension28":"50","dimension29":"Business Growth Programme - Birmingham"}'>Business Growth Programme - Birmingham</a>
+    </h3>
+      <p>Grant support for small and medium enterprises (SMEs) ready to invest, grow and create jobs across 3 local enterprise partnership areas</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-loan-scheme-cwrt-coventry-and-warwickshire" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.43" data-track-label="/business-finance-support/business-loan-scheme-cwrt-coventry-and-warwickshire" data-track-options='{"dimension28":"50","dimension29":"Business loan scheme (CWRT) - Coventry and Warwickshire "}'>Business loan scheme (CWRT) - Coventry and Warwickshire </a>
+    </h3>
+      <p>Loans for companies in Coventry and Warwickshire that can’t get finance from mainstream lenders</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-loans-grants-and-funding-scotland" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.44" data-track-label="/business-finance-support/business-loans-grants-and-funding-scotland" data-track-options='{"dimension28":"50","dimension29":"Business loans, grants and funding - Scotland"}'>Business loans, grants and funding - Scotland</a>
+    </h3>
+      <p>Finder to help businesses based in Scotland find funding from private and public organisations.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/coaching-and-training-northumberland" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.45" data-track-label="/business-finance-support/coaching-and-training-northumberland" data-track-options='{"dimension28":"50","dimension29":"Business Northumberland"}'>Business Northumberland</a>
+    </h3>
+      <p>Coaching, one-to-one advice and classes to help businesses with growth potential attract investment and increase sales.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-solutions-south-west-england" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.46" data-track-label="/business-finance-support/business-solutions-south-west-england" data-track-options='{"dimension28":"50","dimension29":"Business Solutions - South West England"}'>Business Solutions - South West England</a>
+    </h3>
+      <p>A range of business growth programmes to help businesses start, succeed and grow.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-start-up-grant-scheme-mansfield" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.47" data-track-label="/business-finance-support/business-start-up-grant-scheme-mansfield" data-track-options='{"dimension28":"50","dimension29":"Business start-up grant scheme - Mansfield"}'>Business start-up grant scheme - Mansfield</a>
+    </h3>
+      <p>Grant to fund new businesses in the Mansfield area.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-start-up-support-north-of-england" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.48" data-track-label="/business-finance-support/business-start-up-support-north-of-england" data-track-options='{"dimension28":"50","dimension29":"Business start-up support"}'>Business start-up support</a>
+    </h3>
+      <p>Free business advice, workshops and support for new businesses in Cheshire West and Chester.</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-start-up-support-north-tyneside" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.49" data-track-label="/business-finance-support/business-start-up-support-north-tyneside" data-track-options='{"dimension28":"50","dimension29":"Business start-up support - North Tyneside"}'>Business start-up support - North Tyneside</a>
+    </h3>
+      <p>Free start-up and ongoing support for businesses in North Tyneside</p>
+    <dl>
+    </dl>
+  </li>
+  <li class="document">
+    <h3>
+      <a href="/business-finance-support/business-start-up-support-programme-cumbria" data-track-category="navFinderLinkClicked" data-track-action="Finance and support for your business.50" data-track-label="/business-finance-support/business-start-up-support-programme-cumbria" data-track-options='{"dimension28":"50","dimension29":"Business start-up support programme - Cumbria"}'>Business start-up support programme - Cumbria</a>
+    </h3>
+      <p>Free business advice, support and training for new and existing businesses in North West England.</p>
+    <dl>
+    </dl>
+  </li>
+</ul>
+
+<nav class="gem-c-pagination" role="navigation" aria-label="Pagination">
+<ul class="gem-c-pagination__list" data-module="track-click">
+    <li class="gem-c-pagination__item gem-c-pagination__item--next">
+      <a href="/business-finance-support?page=2" class="gem-c-pagination__link" rel="next" data-track-category="contentsClicked" data-track-action="next" data-track-label="/business-finance-support?page=2" data-track-dimension="next" data-track-dimension-index="29">
+        <span class="gem-c-pagination__link-title">
+          <svg class="gem-c-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewbox="0 0 17 13">
+            <path fill="currentColor" d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+          </svg>
+          <span class="gem-c-pagination__link-text">
+            Next page
+          </span>
+        </span>
+          <span class="visually-hidden">:</span>
+          <span class="gem-c-pagination__link-label">2 of 5</span>
+      </a>
+    </li>
+</ul>
+</nav>
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+      </div>
+    </main>
+
+<div class="gem-c-feedback gem-c-feedback--top-margin" data-module="feedback">
+<div class="gem-c-feedback__prompt gem-c-feedback__js-show js-prompt" tabindex="-1">
+  <div class="js-prompt-questions">
+    <h2 class="gem-c-feedback__prompt-question">Is this page useful?</h2>
+
+    <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--useful js-page-is-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffYesClick" href="/contact/govuk">
+        Yes <span class="visually-hidden">this page is useful</span>
+</a>
+    <a class="gem-c-feedback__prompt-link js-toggle-form js-page-is-not-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffNoClick" aria-controls="page-is-not-useful" aria-expanded="false" role="button" href="/contact/govuk">
+        No <span class="visually-hidden">this page is not useful</span>
+</a>
+    <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--wrong js-toggle-form js-something-is-wrong" data-track-category="Onsite Feedback" data-track-action="GOV.UK Open Form" aria-controls="something-is-wrong" aria-expanded="false" role="button" href="/contact/govuk">
+        Is there anything wrong with this page?
+</a>    </div>
+
+  <div class="gem-c-feedback__prompt-success js-prompt-success js-hidden" tabindex="-1">
+    Thank you for your feedback
+  </div>
+</div>
+
+<form action="/contact/govuk/problem_reports" id="something-is-wrong" class="gem-c-feedback__form js-feedback-form js-hidden" data-track-category="Onsite Feedback" data-track-action="GOV.UK Send Form" method="post">
+  <a href="#" class="gem-c-feedback__close gem-c-feedback__js-show js-close-form" data-track-category="Onsite Feedback" data-track-action="GOV.UK Close Form" aria-controls="something-is-wrong" aria-expanded="true" role="button">Close</a>
+
+  <div class="gem-c-feedback__grid-row">
+    <div class="gem-c-feedback__column-two-thirds">
+      <div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-hidden js-errors" tabindex="-1"></div>
+
+      <input type="hidden" name="url" value="https://www.gov.uk/business-finance-support">
+      <input type="hidden" name="user_agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36">
+
+      <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+      <p id="feedback_explanation" class="gem-c-feedback__form-paragraph">Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+
+
+<div class="govuk-form-group">
+
+<label for="input-921a6203" class="gem-c-label govuk-label ">
+What were you doing?
+</label>
+
+
+
+
+<input name="what_doing" class="gem-c-input govuk-input" id="input-921a6203" type="text" aria-describedby="feedback_explanation">
+</div>
+
+
+<div class="govuk-form-group">
+
+<label for="input-65516f82" class="gem-c-label govuk-label ">
+What went wrong?
+</label>
+
+
+
+
+<input name="what_wrong" class="gem-c-input govuk-input" id="input-65516f82" type="text">
+</div>
+
+
+<button class="gem-c-button govuk-button" type="submit">Send</button>
+
+
+    </div>
+  </div>
+</form>
+
+<form action="/contact/govuk/email-survey-signup" id="page-is-not-useful" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form js-hidden" data-track-category="yesNoFeedbackForm" data-track-action="Send Form" method="post">
+  <a href="#" class="gem-c-feedback__close js-close-form" data-track-category="yesNoFeedbackForm" data-track-action="ffFormClose" aria-controls="page-is-not-useful" aria-expanded="true" role="button">Close</a>
+
+  <div class="gem-c-feedback__grid-row">
+    <div class="gem-c-feedback__column-two-thirds">
+      <div class="gem-c-feedback__error-summary js-hidden js-errors" tabindex="-1"></div>
+
+      <input type="hidden" name="url" value="https://www.gov.uk/business-finance-support">
+      <input type="hidden" name="user_agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36">
+
+      <input name="email_survey_signup[survey_id]" type="hidden" value="footer_satisfaction_survey">
+      <input name="email_survey_signup[survey_source]" type="hidden" value="https://www.gov.uk/business-finance-support">
+      <input name="email_survey_signup[ga_client_id]" type="hidden" value="1627485790.1515403243">
+
+      <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+      <p id="survey_explanation" class="gem-c-feedback__form-paragraph">To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.</p>
+
+
+<div class="govuk-form-group">
+
+<label for="input-b5828a4d" class="gem-c-label govuk-label ">
+Email address
+</label>
+
+
+
+
+<input name="email_survey_signup[email_address]" class="gem-c-input govuk-input" id="input-b5828a4d" type="email" aria-describedby="survey_explanation">
+</div>
+
+
+<button class="gem-c-button govuk-button" type="submit">Send me the survey</button>
+
+
+      <a href="https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=/business-finance-support&amp;gcl=1627485790.1515403243" class="gem-c-feedback__email-link" id="take-survey" target="_blank" rel="noopener noreferrer">Don’t have an email address?</a>
+    </div>
+  </div>
+</form>
+
+</div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
+      <div class="taxon-feedback-wrapper">
+
+<div class="gem-c-feedback " data-module="feedback">
+  <div class="gem-c-feedback__prompt gem-c-feedback__js-show js-prompt" tabindex="-1">
+    <div class="js-prompt-questions">
+      <h2 class="gem-c-feedback__prompt-question">Is this page useful?</h2>
+
+      <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--useful js-page-is-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffYesClick" href="/contact/govuk">
+          Yes <span class="visually-hidden">this page is useful</span>
+</a>
+      <a class="gem-c-feedback__prompt-link js-toggle-form js-page-is-not-useful" data-track-category="yesNoFeedbackForm" data-track-action="ffNoClick" aria-controls="page-is-not-useful" aria-expanded="false" role="button" href="/contact/govuk">
+          No <span class="visually-hidden">this page is not useful</span>
+</a>
+      <a class="gem-c-feedback__prompt-link gem-c-feedback__prompt-link--wrong js-toggle-form js-something-is-wrong" data-track-category="Onsite Feedback" data-track-action="GOV.UK Open Form" aria-controls="something-is-wrong" aria-expanded="false" role="button" href="/contact/govuk">
+          Is there anything wrong with this page?
+</a>    </div>
+
+    <div class="gem-c-feedback__prompt-success js-prompt-success js-hidden" tabindex="-1">
+      Thank you for your feedback
+    </div>
+  </div>
+
+  <form action="/contact/govuk/problem_reports" id="something-is-wrong" class="gem-c-feedback__form js-feedback-form js-hidden" data-track-category="Onsite Feedback" data-track-action="GOV.UK Send Form" method="post">
+    <a href="#" class="gem-c-feedback__close gem-c-feedback__js-show js-close-form" data-track-category="Onsite Feedback" data-track-action="GOV.UK Close Form" aria-controls="something-is-wrong" aria-expanded="true" role="button">Close</a>
+
+    <div class="gem-c-feedback__grid-row">
+      <div class="gem-c-feedback__column-two-thirds">
+        <div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-hidden js-errors" tabindex="-1"></div>
+
+        <input type="hidden" name="url" value="https://www.gov.uk/education">
+        <input type="hidden" name="user_agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36">
+
+        <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+        <p id="feedback_explanation" class="gem-c-feedback__form-paragraph">Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+
+
+<div class="govuk-form-group">
+
+<label for="input-9682ba80" class="gem-c-label govuk-label ">
+  What were you doing?
+</label>
+
+
+
+
+  <input name="what_doing" class="gem-c-input govuk-input" id="input-9682ba80" type="text" aria-describedby="feedback_explanation">
+</div>
+
+
+<div class="govuk-form-group">
+
+<label for="input-daee1623" class="gem-c-label govuk-label ">
+  What went wrong?
+</label>
+
+
+
+
+  <input name="what_wrong" class="gem-c-input govuk-input" id="input-daee1623" type="text">
+</div>
+
+
+  <button class="gem-c-button govuk-button" type="submit">Send</button>
+
+
+      </div>
+    </div>
+  </form>
+
+  <form action="/contact/govuk/email-survey-signup" id="page-is-not-useful" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form js-hidden" data-track-category="yesNoFeedbackForm" data-track-action="Send Form" method="post">
+    <a href="#" class="gem-c-feedback__close js-close-form" data-track-category="yesNoFeedbackForm" data-track-action="ffFormClose" aria-controls="page-is-not-useful" aria-expanded="true" role="button">Close</a>
+
+    <div class="gem-c-feedback__grid-row">
+      <div class="gem-c-feedback__column-two-thirds">
+        <div class="gem-c-feedback__error-summary js-hidden js-errors" tabindex="-1"></div>
+
+        <input type="hidden" name="url" value="https://www.gov.uk/education">
+        <input type="hidden" name="user_agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36">
+
+        <input name="email_survey_signup[survey_id]" type="hidden" value="footer_satisfaction_survey">
+        <input name="email_survey_signup[survey_source]" type="hidden" value="https://www.gov.uk/education">
+        <input name="email_survey_signup[ga_client_id]" type="hidden" value="1627485790.1515403243">
+
+        <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+        <p id="survey_explanation" class="gem-c-feedback__form-paragraph">To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.</p>
+
+
+<div class="govuk-form-group">
+
+<label for="input-cebc79ae" class="gem-c-label govuk-label ">
+  Email address
+</label>
+
+
+
+
+  <input name="email_survey_signup[email_address]" class="gem-c-input govuk-input" id="input-cebc79ae" type="email" aria-describedby="survey_explanation">
+</div>
+
+
+  <button class="gem-c-button govuk-button" type="submit">Send me the survey</button>
+
+
+        <a href="https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=/education&amp;gcl=1627485790.1515403243" class="gem-c-feedback__email-link" id="take-survey" target="_blank" rel="noopener noreferrer">Don’t have an email address?</a>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+      </div>
+  </div>
+
+
+    <footer class="group js-footer" id="footer" role="contentinfo">
+
+      <div class="footer-wrapper">
+            <div class="footer-categories">
+      <div class="footer-explore">
+        <h2>Services and information</h2>
+
+        <ul>
+          <li><a href="/browse/benefits">Benefits</a></li>
+          <li><a href="/browse/births-deaths-marriages">Births, deaths, marriages and care</a></li>
+          <li><a href="/browse/business">Business and self-employed</a></li>
+          <li><a href="/browse/childcare-parenting">Childcare and parenting</a></li>
+          <li><a href="/browse/citizenship">Citizenship and living in the UK</a></li>
+          <li><a href="/browse/justice">Crime, justice and the law</a></li>
+          <li><a href="/browse/disabilities">Disabled people</a></li>
+          <li><a href="/browse/driving">Driving and transport</a></li>
+        </ul>
+        <ul>
+          <li><a href="/browse/education">Education and learning</a></li>
+          <li><a href="/browse/employing-people">Employing people</a></li>
+          <li><a href="/browse/environment-countryside">Environment and countryside</a></li>
+          <li><a href="/browse/housing-local-services">Housing and local services</a></li>
+          <li><a href="/browse/tax">Money and tax</a></li>
+          <li><a href="/browse/abroad">Passports, travel and living abroad</a></li>
+          <li><a href="/browse/visas-immigration">Visas and immigration</a></li>
+          <li><a href="/browse/working">Working, jobs and pensions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-inside-government">
+        <h2>Departments and policy</h2>
+
+        <ul>
+          <li><a href="/government/how-government-works">How government works</a></li>
+          <li><a href="/government/organisations">Departments</a></li>
+          <li><a href="/world">Worldwide</a></li>
+          <li><a href="/government/publications">Publications</a></li>
+          <li><a href="/government/announcements">Announcements</a></li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+
+
+        <div class="footer-meta">
+          <div class="footer-meta-inner">
+              <h2 class="visuallyhidden">Support links</h2>
+<ul>
+  <li><a href="/help">Help</a></li>
+  <li><a href="/help/cookies">Cookies</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/help/terms-conditions">Terms and conditions</a></li>
+  <li><a href="/cymraeg" lang="cy" hreflang="cy">Rhestr o Wasanaethau Cymraeg</a></li>
+  <li>Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>
+</li>
+</ul>
+
+
+
+            <div class="open-government-licence">
+              <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="https://assets.publishing.service.gov.uk/static/govuk-template-ae4c5d21c0a7cb5bc8926a9f491de4e410244403f66c72997210c281efb92d4f.js" crossorigin="anonymous" integrity="sha256-rkxdIcCny1vIkmqfSR3k5BAkRAP2bHKZchDCge+5LU8="></script>
+
+      <script src="https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-313b7a6fafe9cac925824ccb4509a56f70853f175eb8361a4bda4d8669075081.js" crossorigin="anonymous" integrity="sha256-MTt6b6/pysklgkzLRQmlb3CFPxdeuDYaS9pNhmkHUIE="></script>
+<script src="https://assets.publishing.service.gov.uk/static/header-footer-only-0e5c1897dfc2c98295ab5a1d07990e7a7cc77fb9468cdb4f3db1cb6e9bea62b3.js" crossorigin="anonymous" integrity="sha256-DlwYl9/CyYKVq1odB5kOenzHf7lGjNtPPbHLbpvqYrM="></script>
+<script src="https://assets.publishing.service.gov.uk/static/surveys-9f5777413deb35cd977d60d92f6c16a5231dc778ac208e11822e40c2c3630e15.js" crossorigin="anonymous" integrity="sha256-n1d3QT3rNc2XfWDZL2wWpSMdx3isII4Rgi5AwsNjDhU="></script>
+
+
+
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  <script src="https://assets.publishing.service.gov.uk/collections/application-c8e1d43207b84a7024edfcc1d3817c69838349c8fdd51006729a19b4fd27f08c.js"></script><script type="application/ld+json">
+  {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https://www.gov.uk/"}}]}
+</script>
+</body>
+</html>

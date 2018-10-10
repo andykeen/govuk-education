@@ -190,10 +190,14 @@ gem-c-title--margin-bottom-5">
 </div>
 <div role="group" aria-labelledby="option-select-title-business-stage" class="options-container" id="subjects">
   <div class="js-auto-height-inner">
-    <label for="subjects-art">
-      <input name="subjects[]" value="art" id="subjects-art" type="checkbox">
-          Art
+    <label for="subjects-artdesign">
+      <input name="subjects[]" value="art" id="subjects-artdesign" type="checkbox">
+          Art and Design
           </label>
+          <label for="subjects-citizenship">
+            <input name="subjects[]" value="citizenship" id="subjects-citizenship" type="checkbox">
+            Citizenship
+            </label>
           <label for="subjects-computing">
             <input name="subjects[]" value="computing" id="subjects-computing" type="checkbox">
             Computing
@@ -217,8 +221,12 @@ gem-c-title--margin-bottom-5">
         </label>
 
         <label for="subjects-music">
-              <input name="subjects[]" value="art" id="subjects-music" type="checkbox">
+              <input name="subjects[]" value="music" id="subjects-music" type="checkbox">
               Music
+        </label>
+        <label for="subjects-pe">
+              <input name="subjects[]" value="pe" id="subjects-pe" type="checkbox">
+              PE
         </label>
         <label for="subjects-science">
               <input name="subjects[]" value="art" id="subjects-science" type="checkbox">
@@ -260,6 +268,43 @@ gem-c-title--margin-bottom-5">
 </div>
 </div>
 
+<div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info">
+<div class="container-head js-container-head">
+  <div class="option-select-label" id="option-select-title-provider">
+    Provider
+  </div>
+</div>
+<div role="group" aria-labelledby="option-select-title-provider" class="options-container" id="providers">
+  <div class="js-auto-height-inner">
+    <label for="providers-bbc-teach">
+      <input name="providers[]" value="bbc-teach" id="resource-types-bbc-teach" type="checkbox">
+      BBC Teach
+      </label>
+    <label for="providers-british-council">
+        <input name="providers[]" value="british-council" id="resource-types-british-council" type="checkbox">
+        British Council Schools Online
+        </label>
+        <label for="providers-planbee">
+          <input name="providers[]" value="planbee" id="resource-types-planbee" type="checkbox">
+          Plan Bee
+          </label>
+    <label for="providers-tes">
+      <input name="providers[]" value="tes" id="resource-types-tes" type="checkbox">
+      TES
+      </label>
+      <label for="providers-twinkl">
+        <input name="providers[]" value="twinkl" id="resource-types-twinkl" type="checkbox">
+        Twinkl
+        </label>
+
+  </div>
+
+</div>
+</div>
+
+<p class="link">
+  <a href="/resource-providers">About these providers</a>
+</p>
 
     <input type="submit" value="Filter results" class="button js-live-search-fallback">
   </form>
